@@ -1,0 +1,110 @@
+:root {
+  --bg: #f8f9fb;
+  --text: #222;
+  --primary: #0d1b2a;
+  --secondary: #1b263b;
+  --accent: #415a77;
+  --light: #e0e1dd;
+  --radius: 10px;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+/* HEADER */
+header {
+  background: var(--primary);
+  color: white;
+  padding: 50px 20px;
+  text-align: center;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.25);
+}
+
+header h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+/* NAVBAR */
+nav {
+  background: var(--secondary);
+  padding: 12px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* SECTIONS */
+section {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #fff;
+  border-radius: var(--radius);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+h2 {
+  color: var(--primary);
+  border-left: 4px solid var(--accent);
+  padding-left: 10px;
+}
+
+/* PROJECT CARDS */
+.project-card {
+  background: var(--light);
+  padding: 20px;
+  border-radius: var(--radius);
+  margin: 15px 0;
+  transition: 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+}
+
+.project-card a {
+  color: var(--primary);
+  font-weight: bold;
+}
+
+/* SKILLS */
+.skills span {
+  display: inline-block;
+  padding: 8px 14px;
+  margin: 6px;
+  background: var(--light);
+  border-radius: var(--radius);
+  transition: 0.2s;
+}
+
+.skills span:hover {
+  background: var(--accent);
+  color: white;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 2rem;
+  }
+  section {
+    padding: 20px;
+  }
+}
