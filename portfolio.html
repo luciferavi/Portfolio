@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ravishankar Kumar | Portfolio</title>
+  <style>
+    :root {
+      --bg: #f8f9fb;
+      --text: #222;
+      --primary: #0d1b2a;
+      --secondary: #1b263b;
+      --accent: #415a77;
+      --light: #e0e1dd;
+      --radius: 10px;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: "Inter", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    header {
+      background: var(--primary);
+      color: #fff;
+      padding: 55px 20px;
+      text-align: center;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.25);
+    }
+
+    header h1 {
+      font-size: 2.7rem;
+      margin-bottom: 10px;
+      letter-spacing: 0.5px;
+    }
+
+    section {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 30px;
+      background: #fff;
+      border-radius: var(--radius);
+      box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    section:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+    }
+
+    h2 {
+      color: var(--primary);
+      border-left: 4px solid var(--accent);
+      padding-left: 12px;
+      margin-bottom: 18px;
+      font-size: 1.8rem;
+    }
+
+    h3 {
+      font-size: 1.3rem;
+      color: var(--secondary);
+      margin-top: 18px;
+      margin-bottom: 5px;
+    }
+
+    ul li {
+      margin-bottom: 8px;
+    }
+
+    .skills span, .links a {
+      display: inline-block;
+      margin: 6px;
+      padding: 8px 14px;
+      background: var(--light);
+      border-radius: 8px;
+      font-size: 0.95rem;
+      transition: background 0.2s ease;
+    }
+
+    .links a:hover, .skills span:hover {
+      background: var(--accent);
+      color: #fff;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /* RESPONSIVE DESIGN */
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2.2rem;
+      }
+      section {
+        padding: 20px;
+      }
+      h2 {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="C:\Users\ravis\OneDrive\Pictures\my formal\img f jpg.jpg" alt="Ravishankar Kumar" style="width:160px;height:160px;border-radius:50%;object-fit:cover;border:4px solid #fff;box-shadow:0 4px 12px rgba(0,0,0,0.2);margin-bottom:15px;">
+    <h1>Ravishankar Kumar</h1>
+    <p>B.Tech, Electronics and Communication Engineering</p>
+    <p>MNNIT Allahabad</p>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <p>Hi! I'm Ravishankar, a full-stack developer and problem solver passionate about Data Structures, Algorithms, and building scalable web applications. I enjoy creating projects that help students and make workflows more efficient.</p>
+  </section>
+
+  <section>
+    <h2>Education</h2>
+    <ul>
+      <li><strong>B.Tech (2022–2026)</strong> – MNNIT Allahabad – CPI: 7.61</li>
+      <li><strong>Class XII (2022)</strong> – JVM Ranchi – 95.4%</li>
+      <li><strong>Class X (2020)</strong> – JVM Ranchi – 96.0%</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <h3>JOB RASHPI</h3>
+    <p>A full‑stack web app helping students with placement preparation.</p>
+    <ul>
+      <li>Stack: ReactJS, NodeJS, ExpressJS, MongoDB</li>
+      <li>JWT authentication, LeetCode + Codeforces API, Google OAuth</li>
+    </ul>
+    <p><a href="https://github.com/PIYUSHAG12345/job_rashpi" target="_blank">GitHub Link</a></p>
+
+    <h3>AURA TRACKER</h3>
+    <p>A gamified academic tracking platform.</p>
+    <ul>
+      <li>Secure backend, user goals, challenges, points system</li>
+      <li>Responsive dashboard and real‑time progress</li>
+    </ul>
+    <p><a href="https://github.com/luciferavi/aura_tracker" target="_blank">GitHub Link</a></p>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <div class="skills">
+      <span>C++</span>
+      <span>JavaScript</span>
+      <span>ReactJS</span>
+      <span>NodeJS</span>
+      <span>ExpressJS</span>
+      <span>MongoDB</span>
+      <span>MySQL</span>
+      <span>OOPS</span>
+      <span>Operating System</span>
+    </div>
+  </section>
+
+  <section>
+    <h2>Achievements</h2>
+    <ul>
+      <li>AIR 9189 in JEE Mains 2022</li>
+      <li>Solved 800+ DSA problems</li>
+      <li>Global Rank 129 — CodeChef Starters 195</li>
+      <li>HackerRank Problem Solving (Intermediate) Certified</li>
+      <li>Meta Backend Development Certificate</li>
+      <li>Meta Frontend Certificate</li>
+      <li>IBM AI Certificate</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Coding Profiles</h2>
+    <div class="links">
+      <a href="https://leetcode.com/u/luciferavi/" target="_blank">LeetCode</a>
+      <a href="https://codeforces.com/profile/raviastic" target="_blank">Codeforces</a>
+      <a href="https://www.codechef.com/users/luciferavi" target="_blank">CodeChef</a>
+    </div>
+  </section>
+
+  <section>
+    <h2>Positions of Responsibility</h2>
+    <ul>
+      <li>Captain & Coordinator — MNNIT Football Club (2025–Present)</li>
+      <li>Alumni & PR Manager — Electronics Society, MNNIT (2024–Present)</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:ravishankarkr2322@gmail.com">ravishankarkr2322@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/ravishankar-kumar-753879257/" target="_blank">Profile Link</a></p>
+    <p>GitHub: <a href="https://github.com/luciferavi" target="_blank">github.com/luciferavi</a></p>
+  </section>
+</body>
+</html>
